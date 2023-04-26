@@ -19,6 +19,7 @@ module.exports = (env, argv) => {
       compress: true,
       port: 9000,
       hot: true,
+      open: true
     },
     module: {
       rules: [
